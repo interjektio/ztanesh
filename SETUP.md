@@ -6,14 +6,14 @@
 Run this command and answer the prompts:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/user/ztanesh/master/setup | bash -s -- user/ztanesh
+curl -sSL https://raw.githubusercontent.com/interjektio/ztanesh/master/setup | bash -s -- interjektio/ztanesh
 ```
 
 ### Non-Interactive Mode
 For automated setups (answers "yes" to all prompts):
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/user/ztanesh/master/setup | ZTANESH_NONINTERACTIVE_SETUP=1 bash -s -- user/ztanesh
+curl -sSL https://raw.githubusercontent.com/interjektio/ztanesh/master/setup | ZTANESH_NONINTERACTIVE_SETUP=1 bash -s -- interjektio/ztanesh
 ```
 
 ## What It Does

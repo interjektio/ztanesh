@@ -5,15 +5,23 @@ Improve your UNIX command line experience and productivity with the
 the configuration provided by **ztanesh** project: the tools
 will make your shell more powerful and easier to use.
 
+Quick install
+----------------------
+
+Clone ztanesh to ``~/tools`` and configure the system in a single command::
+
+    curl -sSL https://raw.githubusercontent.com/interjektio/ztanesh/master/setup | bash -s -- interjektio/ztanesh
+
+For automated, non-interactive setups (assumes "yes" to all prompts)::
+
+    curl -sSL https://raw.githubusercontent.com/interjektio/ztanesh/master/setup | ZTANESH_NONINTERACTIVE_SETUP=1 bash -s -- interjektio/ztanesh
+
+This clones the repository to ``~/tools`` (SSH first, HTTPS fallback) and then
+runs the system setup. You need Git, Python 3, Zsh and sudo privileges. See
+`SETUP.md <SETUP.md>`_ for what it does, or the `Installation`_ section below
+for manual, per-distribution steps.
+
 .. contents ::
-
-.. image:: https://github.com/downloads/ztane/ztanesh/Screen%20shot%202012-05-07%20at%207.52.12%20PM.png
-
-*The screenshot above shows additional ls coloring. Prompt: top left is active virtualenv etc. development environment, top right is server, time, bottom right is path*.
-
-.. image:: https://github.com/downloads/ztane/ztanesh/Screen%20Shot%202012-05-22%20at%2011.01.46%20PM.png
-
-*Colorize terminal tabs automatically based on which server you are logged in. No need to preconfigure servers - the color is calculated from the hostname*
 
 
 Oh my ZSH
